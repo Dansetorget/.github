@@ -10,7 +10,8 @@
 - [ ] Asynchronous database access (server-side) - serveren håndterer andre forespørsler mens den venter på at databasen skal svare (async/await)
 - [ ] API service layer (separat håndtering av HTTP forespørsler, ikke sammen med logikk på klientsiden)
 - [ ] Enhetstesting (server) - minst 8 tester, rettet mot én entitet/tabell (f.eks. Quiz). Testene skal dekke positiv og negativ flyt (velykket operasjon og feilhåndtering) for hver CRUD-operasjon
-- [ ] Autentisering (innlogging) og  Autorisasjon (tilgangsbegrensning) på server og klient – rollebasert tilgang (Admin/Author/User) er frivillig, og teller som ekstrapoeng. Server: API-et sjekker tokens/roller før det utfører handlinger. Klient: Skjuler/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen. 
+- [ ] Autentisering (innlogging) og  Autorisasjon (tilgangsbegrensning) på server: API-et sjekker tokens/roller før det utfører handlinger.
+- [ ] Autentisering (innlogging) og autorisasjon på klient: Koble til endepunktene til backedn, skjule/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen. 
 
 
 # 🌐 Dansetorget
