@@ -11,7 +11,9 @@
 - [ ] API service layer (separat håndtering av HTTP forespørsler, ikke sammen med logikk på klientsiden)
 - [x] Enhetstesting (server) - minst 8 tester, rettet mot én entitet/tabell (f.eks. Quiz). Testene skal dekke positiv og negativ flyt (velykket operasjon og feilhåndtering) for hver CRUD-operasjon
 - [x] Autentisering (innlogging) og  Autorisasjon (tilgangsbegrensning) på server: API-et sjekker tokens/roller før det utfører handlinger.
-- [ ] Autentisering (innlogging) og autorisasjon på klient: Koble til endepunktene til backedn, skjule/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen. 
+- [ ] Autentisering (innlogging) og autorisasjon på klient: Koble til endepunktene til backedn, skjule/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen.
+
+Rapport: https://docs.google.com/document/d/13I-VXsyBAfF1ve-2WmJ13u_63t8FgOHZO00kx_e32mc/edit?usp=sharing
 
 
 # 🌐 Dansetorget
