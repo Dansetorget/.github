@@ -1,9 +1,9 @@
 # Eksamen check-list
 
 - [x] Minst 2 typer entiteter i databasen (f.eks. quiz og question) og databaseoperasjoner (CRUD) må implementeres på minst én av dem. Entitet for autentisering teller ikke (f.eks. user)
-- [ ] Conditional rendering (rendrer komponenter bare når visse kriterier er oppfylt)
+- [x] Conditional rendering (rendrer komponenter bare når visse kriterier er oppfylt)
 - [ ] Content filtering (filtrere eksisterende data på klienten)
-- [ ] Skjemaer (client-side)
+- [x] Skjemaer (client-side)
 - [ ] Input-validering (server og klient)
 - [x] Feilhåndtering og logging (server og klient)
 - [x] Repository pattern og DAL (server-side) - egne klasser som håndterer databaseoperasjoner
@@ -11,7 +11,7 @@
 - [ ] API service layer (separat håndtering av HTTP forespørsler, ikke sammen med logikk på klientsiden)
 - [x] Enhetstesting (server) - minst 8 tester, rettet mot én entitet/tabell (f.eks. Quiz). Testene skal dekke positiv og negativ flyt (velykket operasjon og feilhåndtering) for hver CRUD-operasjon
 - [x] Autentisering (innlogging) og  Autorisasjon (tilgangsbegrensning) på server: API-et sjekker tokens/roller før det utfører handlinger.
-- [ ] Autentisering (innlogging) og autorisasjon på klient: Koble til endepunktene til backedn, skjule/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen.
+- [x] Autentisering (innlogging) og autorisasjon på klient: Koble til endepunktene til backedn, skjule/viser komponenter og sider basert på innlogget bruker, f.eks. viser «Rediger» bare hvis bruker eier quizen.
 
 Rapport: https://docs.google.com/document/d/13I-VXsyBAfF1ve-2WmJ13u_63t8FgOHZO00kx_e32mc/edit?usp=sharing
 
