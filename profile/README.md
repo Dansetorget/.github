@@ -27,7 +27,7 @@ Kildekoden er organisert i to hovedkomponenter:
 
 ## 🚀 Slik kjører du prosjektet lokalt
 
-For å kjøre hele applikasjonen lokalt må du starte både backend-tjenesten og frontend-klienten.
+For å kjøre hele applikasjonen lokalt må du starte både backend-tjenesten og frontend-klienten i hvert sitt terminal-vindu.
 
 ### Forutsetninger
 * [.NET 8 SDK](https://dotnet.microsoft.com/download)
