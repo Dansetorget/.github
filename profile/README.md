@@ -57,8 +57,7 @@ echo -e "VITE_PORT=3000\nVITE_API_URL=http://localhost:5110" > .env.development
 ```
 Start clienten
 ```bash
-npm install
-npm run dev
+npm install && npm run dev
 ```
 
 
