@@ -36,7 +36,7 @@ For å kjøre hele applikasjonen lokalt må du starte både backend-tjenesten og
 ### 1. Kjøre Backend (API)
 ```bash
 # Klone backend-repoet
-git clone [https://github.com/Dansetorget/API.git](https://github.com/Dansetorget/API.git)
+git clone https://github.com/Dansetorget/API.git
 cd API
 
 # Gjenopprett avhengigheter og start API-et
@@ -47,7 +47,7 @@ dotnet run
 ### 2. Kjøre frontent (Client)
 ```bash
 # Klone frontend-repoet
-git clone [https://github.com/Dansetorget/Client.git](https://github.com/Dansetorget/Client.git)
+git clone https://github.com/Dansetorget/Client.git
 cd Client
 ```
 For at clienten skal kunne snakke med API-et må filen `.env.development` opprettes og legge til:
