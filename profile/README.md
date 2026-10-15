@@ -49,15 +49,11 @@ dotnet run --project QuizApi/QuizApi.csproj
 # Klone frontend-repoet
 git clone https://github.com/Dansetorget/Client.git
 cd Client
-```
-For at clienten skal kunne snakke med API-et må filen `.env.development` opprettes og legge til:
-```
-VITE_PORT=3000 
-VITE_API_URL=http://localhost:5110
-```
 
-Clienten kan nå startes med
-```bash
+# Opprett .env.development for kommunikasjon med API
+echo -e "VITE_PORT=3000\nVITE_API_URL=http://localhost:5110" > .env.development
+
+# Start
 npm install
 npm run dev
 ```
