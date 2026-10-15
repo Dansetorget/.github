@@ -2,63 +2,62 @@
 
 # Quizzlybear 🐻❓
 
-**Quizzlybear** er en fullstack webapplikasjon utviklet i et team på 5 dataingeniørstudenter ved OsloMet. 
+**Quizzlybear** is a full-stack web application developed by a team of five Computer Engineering students at OsloMet.
 
-Applikasjonen gjør det enkelt for brukere å opprette, tilpasse og besvare interaktive quizer med poengberegning og poengtavler (leaderboards). Systemet er bygget med en oppdelt arkitektur for å sikre klar ansvarsfordeling mellom klient og server.
-
----
-
-## 🏗️ Arkitektur & Repositorier
-
-Kildekoden er organisert i to hovedkomponenter:
-
-* **[Dansetorget/API](https://github.com/Dansetorget/API)**: Backend RESTful API skrevet i **ASP.NET Core (C#)** for håndtering av forretningslogikk, databasemodellering og autentisering.
-* **[Dansetorget/Client](https://github.com/Dansetorget/Client)**: Responsiv og brukervennlig frontend utviklet i **React** og **TailwindCSS**.
+The application makes it easy for users to create, customize, and answer interactive quizzes with automated scoring and leaderboards. The system is built with a decoupled architecture to ensure a clear separation of concerns between client and server.
 
 ---
 
-## 🛠️ Teknologistakk
+## 🏗️ Architecture & Repositories
 
-* **Backend:** C#, .NET / ASP.NET Core, Entity Framework Core, SQL
-* **Frontend:** JavaScript / TypeScript, React, TailwindCSS
-* **Verktøy & Metodikk:** Git, GitHub, REST API, Agile teamarbeid (5 personer)
+The source code is organized into two main components:
+
+- **[Dansetorget/API](https://github.com/Dansetorget/API)**: A backend RESTful API built with **ASP.NET Core (C#)** for handling business logic, database modeling, and authentication.
+
+- **[Dansetorget/Client](https://github.com/Dansetorget/Client)**: A responsive, user-friendly frontend built with **React** and **Tailwind CSS**.
 
 ---
 
-## 🚀 Slik kjører du prosjektet lokalt
+## 🛠️ Tech Stack
 
-For å kjøre hele applikasjonen lokalt må du starte både backend-tjenesten og frontend-klienten i hvert sitt terminal-vindu.
+- **Backend:** C#, .NET / ASP.NET Core, Entity Framework Core, SQL
 
-### Forutsetninger
-* [.NET 8 SDK](https://dotnet.microsoft.com/download)
-* [Node.js](https://nodejs.org/) (v18+) og `npm`
+- **Frontend:** JavaScript / TypeScript, React, Tailwind CSS
 
-### 1. Kjøre Backend (API)
+- **Tools & Methodologies:** Git, GitHub, REST API, Agile teamwork (5 members)
+
+---
+
+## 🚀 Getting Started Locally
+
+To run the full application locally, you need to spin up both the backend service and the frontend client in separate terminal windows.
+
+### Prerequisites
+- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [Node.js](https://nodejs.org/) (v18+) and `npm`
+
+### 1. Run the Backend (API)
 ```bash
-# Klone backend-repoet
-git clone https://github.com/Dansetorget/API.git
+# Clone the backend repository
+git clone [https://github.com/Dansetorget/API.git](https://github.com/Dansetorget/API.git)
 cd API
 
-# Gjenopprett avhengigheter og start API-et
+# Restore dependencies and start the API
 dotnet restore
 dotnet run --project QuizApi/QuizApi.csproj
 ```
-
-### 2. Kjøre frontent (Client)
+### 2. Run the Frontend (Client)
 ```bash
-# Klone frontend-repoet
-git clone https://github.com/Dansetorget/Client.git
+# Clone the frontend repository
+git clone [https://github.com/Dansetorget/Client.git](https://github.com/Dansetorget/Client.git)
 cd Client
 ```
-
-Opprett .env.development for kommunikasjon med API
+Create `.env.development` to configure communication with the API:
 ```bash
 echo -e "VITE_PORT=3000\nVITE_API_URL=http://localhost:5110" > .env.development
 ```
-Start clienten
+Start the client:
 ```bash
 npm install && npm run dev
 ```
-
-
-© [2025] Dansetorget. Alle rettigheter reservert.
+© [2025] Dansetorget. All rights reserved.
