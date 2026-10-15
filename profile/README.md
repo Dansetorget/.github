@@ -1,3 +1,5 @@
+<img width="1920" height="949" alt="image" src="https://github.com/user-attachments/assets/0e3f25e0-787c-48c5-a1b1-27b78f7474b7" />
+
 # Eksamen check-list
 
 - [x] Minst 2 typer entiteter i databasen (f.eks. quiz og question) og databaseoperasjoner (CRUD) må implementeres på minst én av dem. Entitet for autentisering teller ikke (f.eks. user)
