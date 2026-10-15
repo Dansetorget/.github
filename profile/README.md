@@ -30,7 +30,7 @@ Kildekoden er organisert i to hovedkomponenter:
 For å kjøre hele applikasjonen lokalt må du starte både backend-tjenesten og frontend-klienten.
 
 ### Forutsetninger
-* [.NET 8 SDK](https://dotnet.microsoft.com/download) eller nyere
+* [.NET 8 SDK](https://dotnet.microsoft.com/download)
 * [Node.js](https://nodejs.org/) (v18+) og `npm`
 
 ### 1. Kjøre Backend (API)
