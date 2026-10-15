@@ -1,4 +1,14 @@
 <img width="1920" height="949" alt="image" src="https://github.com/user-attachments/assets/0e3f25e0-787c-48c5-a1b1-27b78f7474b7" />
+# Quizzlybear 🐻❓ (utviklet av Dansetorget)
+
+Velkommen til GitHub-organisasjonen for **Quizzlybear**! 
+
+Dette prosjektet er en fullstack quiz-applikasjon utviklet i et team på 5 dataingeniørstudenter i emnet *ITPE3200 Webapplikasjoner* ved OsloMet.
+
+### Arkitektur
+* **[API](https://github.com/Dansetorget/API):** RESTful backend skrevet i **ASP.NET Core (C#)**.
+* **[Client](https://github.com/Dansetorget/Client):** Frontend skrevet i **React** og **TailwindCSS**.
+
 
 # Eksamen check-list
 
