@@ -41,7 +41,7 @@ cd API
 
 # Gjenopprett avhengigheter og start API-et
 dotnet restore
-dotnet run
+dotnet run --project QuizApi/QuizApi.csproj
 ```
 
 ### 2. Kjøre frontent (Client)
