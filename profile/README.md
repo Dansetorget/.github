@@ -49,11 +49,14 @@ dotnet run --project QuizApi/QuizApi.csproj
 # Klone frontend-repoet
 git clone https://github.com/Dansetorget/Client.git
 cd Client
+```
 
-# Opprett .env.development for kommunikasjon med API
+Opprett .env.development for kommunikasjon med API
+```bash
 echo -e "VITE_PORT=3000\nVITE_API_URL=http://localhost:5110" > .env.development
-
-# Start
+```
+Start clienten
+```bash
 npm install
 npm run dev
 ```
